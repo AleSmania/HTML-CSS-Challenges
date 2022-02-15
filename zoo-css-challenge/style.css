@@ -79,6 +79,7 @@ p {
 }
 .bears p {
   font-size: 20px;
+  display:block;
 }
 .myfavoriteanimal {
   background-color: rgb(174, 236, 193); 
@@ -115,17 +116,18 @@ p {
 }
 
 .image-container img {
-  vertical-align: top;
+  vertical-align:top;
   border: 5px solid #cfe67c;
+
 }
 
 .image-container img:first-of-type {
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 .tigers {
   background-color: #0b3c49;
-  color: #f0e100;
+  color: #8F8FFF;
 }
 
 .giraffe {
@@ -181,9 +183,15 @@ p {
     }
 
 .education-container h3,
-.education-container p,
- {
+.education-container p {
   margin-bottom: 1em;
+}
+.education-button {
+  font-size: 15px; 
+}
+.education-button:hover,
+.education-button:focus{
+  background: #ef7f52;
 }
 
 
@@ -203,7 +211,9 @@ p {
   color: #ff7f11;
 }
 .membership p {
-  width: 700px
+  max-width: 700px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /*Programs*/
